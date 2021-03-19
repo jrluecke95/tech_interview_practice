@@ -13,7 +13,9 @@ function objTransform(object) {
   return newArray
 }
 
-console.log(objTransform(object))
+function objTransform3(object) {
+  return Object.values(object)
+}
 
 // second solution using internet help
 function objTransform2(object) {
@@ -23,5 +25,3 @@ function objTransform2(object) {
   }
   return newArray;
 }
-
-console.log(objTransform2(object))
